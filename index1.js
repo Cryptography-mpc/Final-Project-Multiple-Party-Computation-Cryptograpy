@@ -70,7 +70,7 @@ const sendGraphBtn = document
     console.log("edgesData : ", edgesData);
 
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://51.103.93.123:80", true);
+    xhr.open("POST", "http://51.103.93.123:8080", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({ type: "apsp", content: edgesData }));
     xhr.onload = () => {
