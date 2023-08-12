@@ -8,7 +8,7 @@ document
     but.blur();
     // send a POST request to the server
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://51.103.93.123:80", true);
+    xhr.open("POST", "http://51.103.93.123:8080", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({ type: "union", content: [1, 2, 5] }));
     xhr.onload = () => {
@@ -37,7 +37,7 @@ document.querySelector("#unionData").addEventListener("click", function (e) {
   console.log(typeof message);
 
   const xhr = new XMLHttpRequest();
-  xhr.open("POST", "http://51.103.93.123:80", true);
+  xhr.open("POST", "http://51.103.93.123:8080", true);
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(JSON.stringify({ type: "union", content: message }));
   xhr.onload = () => {

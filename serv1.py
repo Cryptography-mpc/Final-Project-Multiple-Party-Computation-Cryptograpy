@@ -71,6 +71,6 @@ class Serv(BaseHTTPRequestHandler):
             self.send_response(404)
 
 
-print("http://0.0.0.0:80")
-httpd = HTTPServer(("0.0.0.0", 80), Serv)
+print("http://0.0.0.0:8080")
+httpd = HTTPServer(("0.0.0.0", 8080), Serv)
 httpd.serve_forever()
