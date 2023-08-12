@@ -63,6 +63,6 @@ class Serv(BaseHTTPRequestHandler):
             self.send_response(404)
 
 
-print("http://localhost:8081")
-httpd = HTTPServer(("0.0.0.0", 8081), Serv)
+print("http://localhost:8080")
+httpd = HTTPServer(("0.0.0.0", 8080), Serv)
 httpd.serve_forever()
