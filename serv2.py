@@ -64,5 +64,5 @@ class Serv(BaseHTTPRequestHandler):
 
 
 print("http://localhost:8081")
-httpd = HTTPServer(("localhost", 8081), Serv)
+httpd = HTTPServer(("0.0.0.0", 8081), Serv)
 httpd.serve_forever()

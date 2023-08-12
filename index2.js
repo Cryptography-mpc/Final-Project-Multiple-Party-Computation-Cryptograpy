@@ -8,7 +8,7 @@ document
     but.blur();
     // send a POST request to the server
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8081", true);
+    xhr.open("POST", "http://51.103.93.123:8081", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({ type: "union", content: [1, 2, 3] }));
     xhr.onload = () => {
@@ -37,7 +37,7 @@ document.querySelector("#unionData").addEventListener("click", function (e) {
   console.log(typeof message);
 
   const xhr = new XMLHttpRequest();
-  xhr.open("POST", "http://localhost:8081", true);
+  xhr.open("POST", "http://51.103.93.123:8081", true);
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(JSON.stringify({ type: "union", content: message }));
   xhr.onload = () => {
@@ -70,7 +70,7 @@ const sendGraphBtn = document
     console.log("edgesData : ", edgesData);
 
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8081", true);
+    xhr.open("POST", "http://51.103.93.123:8081", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({ type: "apsp", content: edgesData }));
     xhr.onload = () => {
