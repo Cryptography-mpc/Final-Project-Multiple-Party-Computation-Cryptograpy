@@ -16,7 +16,7 @@ def accept_client(server_socket):
 def Init_client_connection():
     alice_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     alice_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_host = "4.233.133.243"  # Replace with the server's IP address
+    server_host = "51.103.93.123"  # Replace with the server's IP address
     server_port = 2322  # Replace with the server's port number
     alice_server_socket.connect((server_host, server_port))
     return alice_server_socket
