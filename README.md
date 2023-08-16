@@ -41,7 +41,7 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
+link to canva https://www.canva.com/design/DAFrrf5AzVY/fDEe8CqlhALeIpUrSfA-3A/edit?utm_content=DAFrrf5AzVY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 ## About
@@ -126,11 +126,6 @@ Utilizes the Set Union Protocol and Enhances the capabilities into a secure comp
 # User Interface 
 We built a library mainly for software developers, but included visual aids and infrastructure for easier understanding. It's designed to show anyone how our system works, especially in Multi-party computation. Our simple interface gives a clear view of the protocol's progress and even includes a log output to follow the entire process.
 
-Insert screens here
-
-[ QR code for GitHub repo on bottom-right ]
-
-
 ## Development proccess
 
 At first the Development process was to read a lot and get deep into the article of Justin Brickell and Vitaly Shmatikov, which you can access [here](https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/blob/main/shmat_asiacrypt05.pdf).
@@ -179,16 +174,18 @@ POST /union
 #### APSP1(graph,socket)
 #### APSP2(graph)
 
-  
-## License
+ ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
 
   
 
 ## Tech Stack
 
 **Client:** HTML CSS JAVASCRIPT
+
 **Server:** PYTHON http module
 
 ## Usage/Examples
@@ -270,6 +267,13 @@ Start the for bob
 python3 serv2.py
 
 ```
+
+
+
+## Demo
+
+![ezgif com-video-to-gif (2)](https://github.com/Cryptography-mpc/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/62290677/08f95586-9c8d-4dcb-8af6-32c4a6a2cbb4)
+
 
 
 # Documents
