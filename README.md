@@ -129,11 +129,6 @@ Utilizes the Set Union Protocol and Enhances the capabilities into a secure comp
 # User Interface 
 We built a library mainly for software developers, but included visual aids and infrastructure for easier understanding. It's designed to show anyone how our system works, especially in Multi-party computation. Our simple interface gives a clear view of the protocol's progress and even includes a log output to follow the entire process.
 
-Insert screens here
-
-[ QR code for GitHub repo on bottom-right ]
-
-
 ## Development proccess
 
 At first the Development process was to read a lot and get deep into the article of Justin Brickell and Vitaly Shmatikov, which you can access [here](https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/blob/main/shmat_asiacrypt05.pdf).
@@ -146,50 +141,6 @@ Synchronization was one of our biggest obstacle for us as a team and for the thr
 
   
 
-## API Reference
-
-```http
-GET /api/datapoint
-
-```
-| Parameter | Type | Description |
-
-| :-------- | :------- | :------------------------- |
-
-|  `api_key`  |  `string`  |  **Required**. Your API key |
-
-  
-
-#### Get item
-
-  
-```http
-
-GET /api/items/${id}
-
-```
-
-| Parameter | Type | Description |
-
-| :-------- | :------- | :-------------------------------- |
-
-|  `id`  |  `string`  |  **Required**. Id of item to fetch |
-
-  
-
-#### add(num1, num2)
-
-  
-
-Takes two numbers and returns the sum.
-  
-
-## Appendix
-
-Any additional information goes here
-
-  
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -198,14 +149,12 @@ Any additional information goes here
 
 ## Tech Stack
 
-**Client:** HTML CSS JAVASCRIPT, Jinja engine for flask
+**Client:** HTML CSS JAVASCRIPT
 **Server:** PYTHON FLASK
 
-  
 
 ## Demo
 
-  
 ![ezgif com-video-to-gif (2)](https://github.com/Cryptography-mpc/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/62290677/08f95586-9c8d-4dcb-8af6-32c4a6a2cbb4)
 
 
