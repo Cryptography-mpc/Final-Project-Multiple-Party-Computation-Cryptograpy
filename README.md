@@ -1,13 +1,10 @@
-![WhatsApp Image 2023-08-16 at 10 26 07](https://github.com/Cryptography-mpc/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/92545994/5e6a69dd-b4b5-4c39-83dc-7af752a549b3)# Multi-Party Computation Cryptography - Final Project
+# Multi-Party Computation Cryptography - Final Project
 
-* finish writing the development process api and demo and screenshots adding tests
-* fix the SSD document https://docs.google.com/document/d/1oWhDiyfaaCHef23QWVzcB4Yah-8EvjGF3wODgSoSex4/edit#
-![WhatsApp Image 2023-08-16 at 10 26 07](https://github.com/Cryptography-mpc/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/92545994/9c392e65-0331-45e7-86b2-9180978c9f73)
+
 
 <img src="https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/62290677/d7f77a75-62cb-42c5-a6e1-dce23579a213" width=150px />
 
 |<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /> |<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> |<img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" />  |
-
 |-|-|-|
 |<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /> | <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> |
 |<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> | <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" /> |
