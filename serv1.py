@@ -30,7 +30,7 @@ class Serv(BaseHTTPRequestHandler):
             json_data = json.loads(post_data)
             if json_data["type"] == "union":
                 result = unionA(
-                    json_data["content"], 32, server_socket=server_socket
+                    json_data["content"], 2 ** 32, server_socket=server_socket
                 )  #
                 json_result = json.dumps(result)
                 # send it back
