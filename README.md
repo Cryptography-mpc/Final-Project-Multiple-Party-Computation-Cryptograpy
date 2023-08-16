@@ -41,7 +41,7 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
+link to canva https://www.canva.com/design/DAFrrf5AzVY/fDEe8CqlhALeIpUrSfA-3A/edit?utm_content=DAFrrf5AzVY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 ## About
@@ -124,7 +124,7 @@ Each graph has a public graph, and a personal graph (its original graph), and wi
 Utilizes the Set Union Protocol and Enhances the capabilities into a secure computation of the All Pairs Shortest Distance between nodes in a graph.
 
 # Infrastracture
-**Using Flask and Gunicorn servers on cloud platforms of Microsoft Azure. we represent parties involved in the secure computation.**
+**Using platforms of Microsoft Azure. we represent parties involved in the secure computation.**
 
 # User Interface 
 We built a library mainly for software developers, but included visual aids and infrastructure for easier understanding. It's designed to show anyone how our system works, especially in Multi-party computation. Our simple interface gives a clear view of the protocol's progress and even includes a log output to follow the entire process.
