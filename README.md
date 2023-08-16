@@ -94,10 +94,13 @@ The use of various generic libraries, such as YAO, and GMW, has proven to be les
 
 
 
-because the iterative method required using a generic library to calculate the minimum in a secure way.
+## because the iterative method required using a generic library to calculate the minimum in a secure way.
+
+# Set-Union 
+Implement a Set-Union mechanism between two private groups of numbers.
+For sharing the necessary information between two parties, we Use ElGamal Encryption BitOr Mechanism.
 
 ## Pseudo Code Bit OR
-
 ### Procedure PrivacyPreservingBitOr:
 1. Alice initializes:
 	- Selects cyclic group $G$ of prime order $q$
@@ -116,12 +119,15 @@ because the iterative method required using a generic library to calculate the m
 	- Calculates $b = \frac{δ}{γ^k}$
 		- If $b = 1$, returns $0$
 		- If $b ≠ 1$, returns $1$
-insert diagram here
 
-### Infrastracture
+# All Pairs Shortest Distance
+Each graph has a public graph, and a personal graph (its original graph), and with the help of the algorithm we used, each side updates the edges in the public graph, until the distances are updated to be the shortest in both
+Utilizes the Set Union Protocol and Enhances the capabilities into a secure computation of the All Pairs Shortest Distance between nodes in a graph.
+
+# Infrastracture
 **Using Flask and Gunicorn servers on cloud platforms of Microsoft Azure. we represent parties involved in the secure computation.**
 
-### User Interface 
+# User Interface 
 We built a library mainly for software developers, but included visual aids and infrastructure for easier understanding. It's designed to show anyone how our system works, especially in Multi-party computation. Our simple interface gives a clear view of the protocol's progress and even includes a log output to follow the entire process.
 
 Insert screens here
