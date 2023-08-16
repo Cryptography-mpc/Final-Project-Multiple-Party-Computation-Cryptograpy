@@ -67,7 +67,7 @@ This project is an implementation of a secure multi-party protocol for the secur
 
 ## Project Goal
 
-The primary objective of this project is to implement a secure multi-party protocol that is specifically designed for the secure set-union problem and the secure all-pairs shortest distance problem. Our protocol aims to achieve greater efficiency than generic MPC protocols, especially in semi-honest settings with a dishonest majority. We base our approach on existing research by Justin Brickell and Vitaly Shmatikov, which you can access [here](https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/blob/main/shmat_asiacrypt05.pdf).
+The primary objective of this project is to implement a secure multi-party protocol that is specifically designed for the secure set-union problem and the secure all-pairs shortest distance problem. Our protocol aims to achieve greater efficiency than generic MPC protocols, especially in semi-honest settings with a dishonest majority. We base our approach on existing research by Justin Brickell and Vitaly Shmatikov, which you can access [here](https://github.com/Cryptography-mpc/Final-Project-Multiple-Party-Computation-Cryptograpy/blob/main/Docs/shmat_asiacrypt05.pdf).
 
 
 ## Introduction
