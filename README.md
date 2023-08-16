@@ -123,9 +123,6 @@ For sharing the necessary information between two parties, we Use ElGamal Encryp
 Each graph has a public graph, and a personal graph (its original graph), and with the help of the algorithm we used.<br /> each side updates the edges in the public graph, until the distances are updated to be the shortest in both.
 Utilizes the Set Union Protocol and Enhances the capabilities into a secure computation of the All Pairs Shortest Distance between nodes in a graph.
 
-# Infrastracture
-**Using platforms of Microsoft Azure. we represent parties involved in the secure computation.**
-
 # User Interface 
 We built a library mainly for software developers, but included visual aids and infrastructure for easier understanding. It's designed to show anyone how our system works, especially in Multi-party computation. Our simple interface gives a clear view of the protocol's progress and even includes a log output to follow the entire process.
 
@@ -141,21 +138,142 @@ Synchronization was one of our biggest obstacle for us as a team and for the thr
 
   
 
-## License
+## API Reference
+
+```http
+POST /apsp
+
+```
+| Parameter | Type | Description |
+
+| :-------- | :------- | :------------------------- |
+
+|  `graph`  |  `nx graph like json`  |  **Required**. JSON of Graph |
+
+  
+
+#### Get item
+
+  
+```http
+
+POST /union
+
+```
+
+| Parameter | Type | Description |
+
+| :-------- | :------- | :-------------------------------- |
+
+|  `list`  |  `list [ int ]`  |  **Required**. list of numbers |
+
+  
+
+#### unionA(list, world,socket)
+#### unionB(list, world)
+#### APSP1(graph,socket)
+#### APSP2(graph)
+
+ ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
 
   
 
 ## Tech Stack
 
 **Client:** HTML CSS JAVASCRIPT
-**Server:** PYTHON FLASK
+
+**Server:** PYTHON http module
+
+## Usage/Examples
+  
+
+```python
+result = unionA(json_data["content"], 32, server_socket=server_socket) 
+```
+
+```python
+ result = unionB(json_data["content"], 32)  ## 16
+```
+
+```python
+   result = ASPS1(graph, server_socket_dont_touch=server_socket)
+```
+
+```python
+   result = ASPS2(graph)
+```
+
+## Demo
+
+  
+Insert gif *and* image for the video demo on youtube
+
+
+## Run Locally  
+
+Clone the project
+
+
+```bash
+
+git clone [https://link-to-project](https://github.com/Cryptography-mpc/Final-Project-Multiple-Party-Computation-Cryptograpy.git)
+
+```
+  
+
+Go to the project directory
+
+  
+
+```bash
+
+cd Final-Project-Multiple-Party-Computation-Cryptograpy
+
+```
+
+  
+
+Install dependencies
+
+  
+
+```bash
+
+pip install sympy numpy networkx
+
+```
+
+  
+
+Start the for alice
+
+
+```bash
+
+python3 serv1.py
+
+```
+
+
+Start the for bob
+
+
+```bash
+
+python3 serv2.py
+
+```
+
 
 
 ## Demo
 
 ![ezgif com-video-to-gif (2)](https://github.com/Cryptography-mpc/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/62290677/08f95586-9c8d-4dcb-8af6-32c4a6a2cbb4)
+
 
 
 # Documents
@@ -176,7 +294,7 @@ Synchronization was one of our biggest obstacle for us as a team and for the thr
 
 
 ## Privacy-Preserving Graph Algorithms in the Semi-honest Model 
-by Justin Brickell and Bitaly Shmatikov
+by Justin Brickell and Vitaly Shmatikov
 The University of Texas at Austin, Austin TX 78712, USA
 
 ![image](https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/62290677/2654a3ec-b54b-453b-b145-715c0d433361)
