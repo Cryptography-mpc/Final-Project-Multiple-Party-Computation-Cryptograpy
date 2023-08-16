@@ -100,8 +100,8 @@ The use of various generic libraries, such as YAO, and GMW, has proven to be les
 Implement a Set-Union mechanism between two private groups of numbers.
 For sharing the necessary information between two parties, we Use ElGamal Encryption BitOr Mechanism.
 
-## Pseudo Code Bit OR
-### Procedure PrivacyPreservingBitOr:
+### Pseudo Code Bit OR
+ Procedure PrivacyPreservingBitOr:
 1. Alice initializes:
 	- Selects cyclic group $G$ of prime order $q$
 	- Chooses $g$ (quadratic residue) and large prime p $(p=2q+1)$
