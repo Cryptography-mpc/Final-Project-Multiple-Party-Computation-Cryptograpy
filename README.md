@@ -47,7 +47,7 @@
 
 ## About
 
-This project is an implementation of a secure multi-party protocol for the secure set-union problem and the secure all-pairs shortest path problem. The protocol is devised from existing literature and is tailored for enhanced efficiency in a semi-honest setting with a dishonest majority.
+This project is an implementation of a secure multi-party protocol for the secure set-union problem and the secure all-pairs shortest distance problem. The protocol is devised from existing literature and is tailored for enhanced efficiency in a semi-honest setting with a dishonest majority.
 
 ## What is Multi-Party Computation (MPC)?
 
@@ -67,14 +67,14 @@ This project is an implementation of a secure multi-party protocol for the secur
 
 ## Project Goal
 
-The primary objective of this project is to implement a secure multi-party protocol that is specifically designed for the secure set-union problem and the secure all-pairs shortest path problem. Our protocol aims to achieve greater efficiency than generic MPC protocols, especially in semi-honest settings with a dishonest majority. We base our approach on existing research by Justin Brickell and Vitaly Shmatikov, which you can access [here](https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/blob/main/shmat_asiacrypt05.pdf).
+The primary objective of this project is to implement a secure multi-party protocol that is specifically designed for the secure set-union problem and the secure all-pairs shortest distance problem. Our protocol aims to achieve greater efficiency than generic MPC protocols, especially in semi-honest settings with a dishonest majority. We base our approach on existing research by Justin Brickell and Vitaly Shmatikov, which you can access [here](https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/blob/main/shmat_asiacrypt05.pdf).
 
 
 ## Introduction
 
 Our protocol deals with two semi-honest groups. Since the late 1980s, general protocols have theoretically allowed secure computation in polynomial time and with a security parameter, enabling both players to compute safely under computational complexity assumptions. While these general protocols are theoretically efficient, they are not always practically efficient. Therefore, people have been trying to create specific security protocols for specific functions that are more efficient than the general protocols.
 
-The use of various generic libraries, such as YAO, and GMW, has proven to be less efficient, prompting efforts to develop more efficient approaches. We will implement the All-Pairs Shortest Path functionality to contribute to the ecosystem of implementations, aiming to create more efficient implementations in this domain.
+The use of various generic libraries, such as YAO, and GMW, has proven to be less efficient, prompting efforts to develop more efficient approaches. We will implement the All-Pairs Shortest Distance functionality to contribute to the ecosystem of implementations, aiming to create more efficient implementations in this domain.
 
 ## Methods & Algorithms
 
