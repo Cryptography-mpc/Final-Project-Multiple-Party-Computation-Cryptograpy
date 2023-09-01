@@ -100,6 +100,32 @@ Implement a Set-Union mechanism between two private groups of numbers.<br />
 For sharing the necessary information between two parties, we Use ElGamal Encryption BitOr Mechanism.
 
 ### Pseudo Code Bit OR
+
+```mermaid
+sequenceDiagram
+actor Alice
+actor Bob
+    par send request
+    ServerA ->> Alice : 1 or 0 
+    activate Alice
+    ServerB ->> Bob : 1 or 0
+    end
+    
+    Alice ->> Alice: k
+    Alice ->> Bob: Ca , q , g , g^k
+    deactivate Alice
+    activate Bob
+    Bob ->> Alice : Cb
+    deactivate Bob
+    activate Alice
+    par Return the same result
+    Alice ->> ServerA : Algo result is 1 or 0 
+    Alice ->> Bob: Algo result
+    Bob ->> ServerB : Algo result
+    end
+    deactivate Alice
+ ```
+
  Procedure PrivacyPreservingBitOr:
 1. Alice initializes:
 	- Selects cyclic group $G$ of prime order $q$
