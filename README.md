@@ -1,5 +1,6 @@
 # Multi-Party Computation Cryptography - Final Project
-
+[Poster](https://docs.google.com/presentation/d/1jXhz7FdwcqfRP-_QKg92zKhXOWl22mf_/edit?usp=sharing&ouid=106073873938908076067&rtpof=true&sd=true)
+![image](https://github.com/user-attachments/assets/063f2af5-bd83-4f9d-8eb7-e7ac88c42cbb)
 
 
 <img src="https://github.com/Dolev-Dublon/Final-Project-Multiple-Party-Computation-Cryptograpy/assets/62290677/d7f77a75-62cb-42c5-a6e1-dce23579a213" width=150px />
